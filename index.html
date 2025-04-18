@@ -1,36 +1,62 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Raciel | Cybersecurity Specialist</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-    <header>
-        <h1>Raciel</h1>
-        <h2>Cybersecurity Specialist | Cybersecurity Analyst | Incident Responder</h2>
-        <nav>
-            <a href="about.html">About Me</a>
-            <a href="services.html">Services</a>
-            <a href="experience.html">Experience</a>
-            <a href="education.html">Education</a>
-            <a href="certifications.html">Certifications</a>
-            <a href="projects.html">Projects</a>
-            <a href="skills.html">Skills</a>
-            <a href="contact.html">Contact</a>
+<html lang="en" class="h-full">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Raciel Riverna | Cybersecurity Professional</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <style>
+      .fade-in {
+        animation: fadeInUp 1s ease-out;
+      }
+      @keyframes fadeInUp {
+        from {
+          opacity: 0;
+          transform: translateY(20px);
+        }
+        to {
+          opacity: 1;
+          transform: translateY(0);
+        }
+      }
+    </style>
+  </head>
+  <body class="bg-gray-900 text-gray-100 font-sans flex flex-col min-h-screen">
+    <!-- Header -->
+    <header class="relative z-10 bg-black bg-opacity-60 backdrop-blur-sm shadow-lg">
+      <div class="max-w-7xl mx-auto px-4 py-6 flex justify-between items-center">
+        <h1 class="text-2xl font-bold text-white mr-auto">Raciel Riverna</h1>
+        <nav class="space-x-4 text-sm ml-6">
+          <a href="#about" class="text-blue-400 hover:underline">About Me</a>
+          <a href="#services" class="hover:text-blue-400">Services</a>
+          <a href="#experience" class="hover:text-blue-400">Experience</a>
+          <a href="#education" class="hover:text-blue-400">Education</a>
+          <a href="#certifications" class="hover:text-blue-400">Certifications</a>
+          <a href="#projects" class="hover:text-blue-400">Projects</a>
+          <a href="#skills" class="hover:text-blue-400">Skills</a>
+          <a href="#contact" class="hover:text-blue-400">Contact</a>
         </nav>
+      </div>
     </header>
 
-    <section class="intro">
-        <h2>Welcome to my Cybersecurity Professional Site 🚀</h2>
-        <p>I am Raciel, a dedicated Cybersecurity Specialist, Analyst, and Incident Responder with experience in protecting digital environments, responding to security incidents, and providing secure IT solutions.</p>
-        <a href="about.html" class="button">Learn More About Me</a>
+    <!-- Hero Section -->
+    <section class="relative flex-grow h-[90vh] flex items-center justify-center text-center px-6 overflow-hidden">
+      <div class="relative z-10 bg-black bg-opacity-60 backdrop-blur-sm py-16 px-8 rounded-lg max-w-6xl w-full mx-auto shadow-xl">
+        <h2 class="text-4xl sm:text-5xl md:text-6xl font-extrabold text-white mb-6 leading-tight drop-shadow-lg fade-in">
+          <div>Cybersecurity Specialist</div>
+          <div>Cybersecurity Analyst</div>
+          <div>Incident Responder</div>
+        </h2>
+        <p class="mt-4 text-xl text-gray-200 max-w-3xl mx-auto fade-in" style="animation-delay: 0.5s; animation-fill-mode: both;">
+          I am Raciel, a dedicated <span class="text-blue-400 font-semibold">Blue Team</span> cybersecurity professional with a mission to protect digital environments, respond to incidents, and secure IT solutions.
+        </p>
+        <a href="#about" class="mt-10 inline-block bg-blue-600 text-white px-10 py-4 rounded-md text-lg font-semibold hover:bg-blue-700 transition shadow-lg fade-in" style="animation-delay: 1s; animation-fill-mode: both;">Learn More About Me</a>
+      </div>
     </section>
 
-    <footer>
-        <p>&copy; 2025 Raciel | Cybersecurity Specialist</p>
+    <!-- Footer -->
+    <footer class="relative z-10 bg-black bg-opacity-60 backdrop-blur-sm text-gray-300 text-sm text-center py-6 mt-auto">
+      © 2025 Raciel Riverna | Cybersecurity Specialist
     </footer>
-</body>
+  </body>
 </html>
-
